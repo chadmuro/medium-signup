@@ -51,10 +51,10 @@ const Hero = () => {
 					color="#fff"
 				>
 					<Typography variant="h3" component="h1" className={classes.title}>
-						Title Goes Here
+						Go To Tokyo
 					</Typography>
-					<Button color="primary" variant="contained">
-						Click Me
+					<Button color="primary" variant="contained" size="large">
+						Discover our tours
 					</Button>
 				</Box>
 			</div>
