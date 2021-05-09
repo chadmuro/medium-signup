@@ -43,7 +43,7 @@ const Navbar = () => {
 					<MenuIcon />
 				</IconButton>
 				<Typography variant="h6" className={classes.title}>
-					Title
+					Go To Tokyo
 				</Typography>
 				{user ? (
 					<Button color="inherit" onClick={signOut}>
