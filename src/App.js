@@ -1,14 +1,15 @@
-import Navbar from './Navbar';
-import Hero from './Hero';
-import Features from './Features';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Features from './components/Features';
+import { AuthProvider } from './contexts/Auth';
 
 const App = () => {
 	return (
-		<div className="App">
+		<AuthProvider>
 			<Navbar />
 			<Hero />
 			<Features />
-		</div>
+		</AuthProvider>
 	);
 };
 
